@@ -1,0 +1,14 @@
+Validation du 29/10/2026
+6 tests automatiques réussis.
+Interface Streamlit testée : accueil, chargement ZIP, blocage auxiliaire partagé, confirmation puis génération.
+Source fournie : CSV et FEC testés indépendamment.
+210 lignes conservées ; 69 écritures équilibrées ; 69 PDF identiques aux originaux.
+Total débit = total crédit = 78 294,18 EUR.
+Pas de test réalisé dans le dossier Pennylane.
+
+Mise à jour libellés : CSV et FEC testés, les 210 lignes portent exactement le nom client attendu pour la pièce, y compris TVA et produits.
+
+Version 3 : 210 lignes sur 210 exportables sans confirmation, 69 PDF.
+Comptes proposés : SODYTRANS 41197629392604 ; NEGO TRANSPORTS MAYENNE 41196505898466.
+Tests : déséquilibre isolé (207 lignes exportées / 3 à vérifier), PDF tous absents (rapport intégral sans faux FEC), correspondance rechargée avec un seul client au mois suivant.
+Interface Streamlit V3 : succès après chargement du ZIP sans case de confirmation.
